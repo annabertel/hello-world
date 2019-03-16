@@ -2,16 +2,39 @@ section {
 	width: 800px;
 	margin: 100px auto;
 }
+
 section h1,
 section p {
 	text-align: center;
-	color: #454545;
+	color: #666666;
 }
+
 section h1 {
-	font: 32px 'Open Sans';
-	font-weight: bold;
-	color: purple;
+	font: 38px 'Gloria Hallelujah', cursive;
+	color: #434343;
 }
+
 section p {
 	font: 16px 'Open Sans';
+	line-height: 25px;
+}
+
+img {
+	height: 300px;
+	width: 350px;
+}
+
+.content {
+	float: left;
+	margin: 15px 0 0 0;
+	width: 400px;
+}
+
+.special-font {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 21px;
+}
+
+#about-me {
+	text-align: justify;
 }
